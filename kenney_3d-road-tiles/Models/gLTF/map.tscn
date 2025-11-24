@@ -1,0 +1,342 @@
+[gd_scene load_steps=34 format=3 uid="uid://boukq1x6x1dus"]
+
+[ext_resource type="ArrayMesh" uid="uid://bkien2maui36j" path="res://kenney_3d-road-tiles/Models/roadTile_018.obj" id="1_cerch"]
+[ext_resource type="ArrayMesh" uid="uid://c1m5sdlfft00x" path="res://kenney_3d-road-tiles/Models/roadTile_017.obj" id="2_425cq"]
+[ext_resource type="ArrayMesh" uid="uid://dvumqo8h65ryg" path="res://kenney_3d-road-tiles/Models/roadTile_012.obj" id="3_imx1e"]
+[ext_resource type="ArrayMesh" uid="uid://kmb1youyoyt" path="res://kenney_3d-road-tiles/Models/roadTile_022.obj" id="4_6pw0d"]
+[ext_resource type="ArrayMesh" uid="uid://bt7jsccgkls2q" path="res://kenney_3d-road-tiles/Models/roadTile_023.obj" id="5_rmvna"]
+[ext_resource type="ArrayMesh" uid="uid://ct1optvqtmx63" path="res://kenney_3d-road-tiles/Models/roadTile_029.obj" id="6_dlvaq"]
+[ext_resource type="ArrayMesh" uid="uid://d2rf4pykwns4v" path="res://kenney_3d-road-tiles/Models/roadTile_016.obj" id="7_tmv50"]
+[ext_resource type="ArrayMesh" uid="uid://c5gy5gxw22lol" path="res://kenney_3d-road-tiles/Models/roadTile_015.obj" id="8_6qf2o"]
+[ext_resource type="ArrayMesh" uid="uid://c337u1jbjl3hm" path="res://kenney_3d-road-tiles/Models/roadTile_014.obj" id="9_346ix"]
+[ext_resource type="ArrayMesh" uid="uid://dg582ccgtwx31" path="res://kenney_3d-road-tiles/Models/roadTile_152.obj" id="10_qpsf2"]
+[ext_resource type="ArrayMesh" uid="uid://0wfkk7rk62uc" path="res://kenney_3d-road-tiles/Models/roadTile_163.obj" id="11_sey80"]
+[ext_resource type="ArrayMesh" uid="uid://b7fdywun7evou" path="res://kenney_3d-road-tiles/Models/roadTile_063.obj" id="12_8d5ap"]
+[ext_resource type="ArrayMesh" uid="uid://l2u5rxe8s32a" path="res://kenney_3d-road-tiles/Models/roadTile_062.obj" id="13_vbsem"]
+[ext_resource type="ArrayMesh" uid="uid://lo0logxkokjo" path="res://kenney_3d-road-tiles/Models/roadTile_061.obj" id="14_hurju"]
+[ext_resource type="ArrayMesh" uid="uid://r6xgaa61qcex" path="res://kenney_3d-road-tiles/Models/roadTile_058.obj" id="15_qfvc5"]
+[ext_resource type="ArrayMesh" uid="uid://edqmp8l1gvv4" path="res://kenney_3d-road-tiles/Models/roadTile_056.obj" id="16_q4l8c"]
+[ext_resource type="ArrayMesh" uid="uid://b1ibbxotd102v" path="res://kenney_3d-road-tiles/Models/roadTile_054.obj" id="17_5a2m8"]
+[ext_resource type="ArrayMesh" uid="uid://p0dchf8i1uwo" path="res://kenney_3d-road-tiles/Models/roadTile_053.obj" id="18_hul3p"]
+[ext_resource type="ArrayMesh" uid="uid://cgfq5cn2sfdhm" path="res://kenney_3d-road-tiles/Models/roadTile_049.obj" id="19_y80li"]
+[ext_resource type="ArrayMesh" uid="uid://3w6u7yspyjhp" path="res://kenney_3d-road-tiles/Models/roadTile_043.obj" id="20_5ye4l"]
+[ext_resource type="ArrayMesh" uid="uid://msmiwsy626h1" path="res://kenney_3d-road-tiles/Models/roadTile_044.obj" id="21_yb8b2"]
+[ext_resource type="ArrayMesh" uid="uid://bdp0wuhfrn4ug" path="res://kenney_3d-road-tiles/Models/roadTile_040.obj" id="22_qwhh2"]
+[ext_resource type="ArrayMesh" uid="uid://bj55dj2qjfrbr" path="res://kenney_3d-road-tiles/Models/roadTile_033.obj" id="23_mq88h"]
+[ext_resource type="ArrayMesh" uid="uid://dh63macn4gi25" path="res://kenney_3d-road-tiles/Models/roadTile_034.obj" id="24_imutt"]
+[ext_resource type="ArrayMesh" uid="uid://dl14e4gjl33hy" path="res://kenney_3d-road-tiles/Models/roadTile_028.obj" id="25_aptfa"]
+[ext_resource type="ArrayMesh" uid="uid://bxkd0i2hpamed" path="res://kenney_3d-road-tiles/Models/roadTile_027.obj" id="26_7od6w"]
+[ext_resource type="ArrayMesh" uid="uid://lucbsyyr2vii" path="res://kenney_3d-road-tiles/Models/roadTile_030.obj" id="27_apdga"]
+[ext_resource type="ArrayMesh" uid="uid://mtm6gdvn0pml" path="res://kenney_3d-road-tiles/Models/roadTile_031.obj" id="28_5b1l6"]
+[ext_resource type="ArrayMesh" uid="uid://cr6c3msv3n0f0" path="res://kenney_3d-road-tiles/Models/roadTile_026.obj" id="29_258fk"]
+[ext_resource type="ArrayMesh" uid="uid://c8lnm7cy4h7ud" path="res://kenney_3d-road-tiles/Models/roadTile_025.obj" id="30_p1200"]
+[ext_resource type="ArrayMesh" uid="uid://ba8ccsd2epcb7" path="res://kenney_3d-road-tiles/Models/roadTile_024.obj" id="31_sqa5m"]
+[ext_resource type="ArrayMesh" uid="uid://blh3aa2msupsq" path="res://kenney_3d-road-tiles/Models/roadTile_021.obj" id="32_cpf6h"]
+[ext_resource type="PackedScene" uid="uid://ievrtltpikdl" path="res://clean.fbx" id="33_425cq"]
+
+[node name="map" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 0)
+
+[node name="road" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1)
+
+[node name="RoadTile048" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3, 0, -3)
+mesh = ExtResource("1_cerch")
+skeleton = NodePath("../RoadTile018")
+
+[node name="RoadTile018" type="MeshInstance3D" parent="road"]
+mesh = ExtResource("1_cerch")
+skeleton = NodePath("../..")
+
+[node name="RoadTile020" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -9)
+mesh = ExtResource("2_425cq")
+skeleton = NodePath("")
+
+[node name="RoadTile027" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-3.9340247e-07, 0, 1, 0, 1, 0, -1, 0, -3.9340247e-07, -6.0000024, 0, -3.0000005)
+mesh = ExtResource("3_imx1e")
+skeleton = NodePath("")
+
+[node name="RoadTile014" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, -7.1525574e-07, 0, 9.536743e-07)
+mesh = ExtResource("3_imx1e")
+skeleton = NodePath("")
+
+[node name="RoadTile013" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 0, 0, -3)
+mesh = ExtResource("3_imx1e")
+skeleton = NodePath("")
+
+[node name="RoadTile024" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 9, 0, -12)
+mesh = ExtResource("4_6pw0d")
+skeleton = NodePath("../RoadTile022")
+
+[node name="RoadTile022" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 9, 0, 0)
+mesh = ExtResource("4_6pw0d")
+skeleton = NodePath("../..")
+
+[node name="RoadTile046" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 1.0999761, -3.0000029)
+mesh = ExtResource("5_rmvna")
+skeleton = NodePath("../RoadTile045")
+
+[node name="RoadTile045" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 9, 0, -6.0000005)
+mesh = ExtResource("5_rmvna")
+skeleton = NodePath("../RoadTile023")
+
+[node name="RoadTile045" type="MeshInstance3D" parent="road/RoadTile045"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.000001)
+mesh = ExtResource("5_rmvna")
+skeleton = NodePath("../RoadTile023")
+
+[node name="RoadTile023" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 9, 0, -3)
+mesh = ExtResource("5_rmvna")
+skeleton = NodePath("../..")
+
+[node name="RoadTile047" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6, 0, -15)
+mesh = ExtResource("6_dlvaq")
+skeleton = NodePath("../RoadTile029")
+
+[node name="RoadTile030" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 9, 0, -12)
+mesh = ExtResource("6_dlvaq")
+skeleton = NodePath("../RoadTile029")
+
+[node name="RoadTile029" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 3)
+mesh = ExtResource("6_dlvaq")
+skeleton = NodePath("../..")
+
+[node name="RoadTile051" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -9)
+mesh = ExtResource("5_rmvna")
+skeleton = NodePath("../RoadTile025")
+
+[node name="RoadTile050" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 0)
+mesh = ExtResource("5_rmvna")
+skeleton = NodePath("../RoadTile051")
+
+[node name="RoadTile025" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9)
+mesh = ExtResource("5_rmvna")
+skeleton = NodePath("../..")
+
+[node name="RoadTile026" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, -27)
+mesh = ExtResource("4_6pw0d")
+skeleton = NodePath("../..")
+
+[node name="RoadTile016" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 1.1, 0)
+mesh = ExtResource("7_tmv50")
+skeleton = NodePath("../..")
+
+[node name="RoadTile015" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -9)
+mesh = ExtResource("8_6qf2o")
+skeleton = NodePath("../..")
+
+[node name="RoadTile019" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -9)
+mesh = ExtResource("9_346ix")
+skeleton = NodePath("../..")
+
+[node name="RoadTile155" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -5.9999995, 0, -3)
+mesh = ExtResource("10_qpsf2")
+skeleton = NodePath("../RoadTile152")
+
+[node name="RoadTile154" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -6, 0, -1.1920929e-07)
+mesh = ExtResource("10_qpsf2")
+skeleton = NodePath("../RoadTile152")
+
+[node name="RoadTile153" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -3, 0, 0)
+mesh = ExtResource("10_qpsf2")
+skeleton = NodePath("../RoadTile152")
+
+[node name="RoadTile152" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, -3)
+mesh = ExtResource("10_qpsf2")
+skeleton = NodePath("../..")
+
+[node name="RoadTile164" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12)
+mesh = ExtResource("11_sey80")
+skeleton = NodePath("")
+
+[node name="RoadTile164" type="MeshInstance3D" parent="road/RoadTile164"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0)
+mesh = ExtResource("11_sey80")
+skeleton = NodePath("")
+
+[node name="RoadTile167" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -6)
+mesh = ExtResource("11_sey80")
+skeleton = NodePath("../RoadTile166")
+
+[node name="RoadTile165" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -6)
+mesh = ExtResource("11_sey80")
+skeleton = NodePath("../RoadTile166")
+
+[node name="RoadTile166" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+mesh = ExtResource("11_sey80")
+skeleton = NodePath("")
+
+[node name="RoadTile166" type="MeshInstance3D" parent="road/RoadTile166"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 9)
+mesh = ExtResource("11_sey80")
+skeleton = NodePath("")
+
+[node name="RoadTile166" type="MeshInstance3D" parent="road/RoadTile166/RoadTile166"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+mesh = ExtResource("11_sey80")
+skeleton = NodePath("")
+
+[node name="RoadTile166" type="MeshInstance3D" parent="road/RoadTile166/RoadTile166/RoadTile166"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3)
+mesh = ExtResource("11_sey80")
+skeleton = NodePath("")
+
+[node name="RoadTile166" type="MeshInstance3D" parent="road/RoadTile166/RoadTile166/RoadTile166/RoadTile166"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+mesh = ExtResource("11_sey80")
+skeleton = NodePath("")
+
+[node name="RoadTile063" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -15)
+mesh = ExtResource("12_8d5ap")
+skeleton = NodePath("../..")
+
+[node name="RoadTile062" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -20)
+mesh = ExtResource("13_vbsem")
+skeleton = NodePath("../..")
+
+[node name="RoadTile061" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -26)
+mesh = ExtResource("14_hurju")
+skeleton = NodePath("../..")
+
+[node name="RoadTile058" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -28)
+mesh = ExtResource("15_qfvc5")
+skeleton = NodePath("../..")
+
+[node name="RoadTile056" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -32)
+mesh = ExtResource("16_q4l8c")
+skeleton = NodePath("../..")
+
+[node name="RoadTile054" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -23)
+mesh = ExtResource("17_5a2m8")
+skeleton = NodePath("../..")
+
+[node name="RoadTile053" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -28)
+mesh = ExtResource("18_hul3p")
+skeleton = NodePath("../..")
+
+[node name="RoadTile049" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -21)
+mesh = ExtResource("19_y80li")
+skeleton = NodePath("../..")
+
+[node name="RoadTile043" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -31)
+mesh = ExtResource("20_5ye4l")
+skeleton = NodePath("../..")
+
+[node name="RoadTile044" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -18)
+mesh = ExtResource("21_yb8b2")
+skeleton = NodePath("../..")
+
+[node name="RoadTile040" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -6, 0, -15)
+mesh = ExtResource("22_qwhh2")
+skeleton = NodePath("../..")
+
+[node name="RoadTile033" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, -9)
+mesh = ExtResource("23_mq88h")
+skeleton = NodePath("../..")
+
+[node name="RoadTile034" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, -15)
+mesh = ExtResource("24_imutt")
+skeleton = NodePath("../..")
+
+[node name="RoadTile035" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -16)
+mesh = ExtResource("23_mq88h")
+skeleton = NodePath("../..")
+
+[node name="RoadTile028" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -5)
+mesh = ExtResource("25_aptfa")
+skeleton = NodePath("../..")
+
+[node name="RoadTile031" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 0, -10)
+mesh = ExtResource("26_7od6w")
+skeleton = NodePath("../..")
+
+[node name="RoadTile032" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, 2)
+mesh = ExtResource("27_apdga")
+skeleton = NodePath("../..")
+
+[node name="RoadTile036" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, 6)
+mesh = ExtResource("28_5b1l6")
+skeleton = NodePath("../..")
+
+[node name="RoadTile037" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, 3)
+mesh = ExtResource("29_258fk")
+skeleton = NodePath("../..")
+
+[node name="RoadTile038" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23, 0, -4)
+mesh = ExtResource("30_p1200")
+skeleton = NodePath("../..")
+
+[node name="RoadTile039" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, -11)
+mesh = ExtResource("31_sqa5m")
+skeleton = NodePath("../..")
+
+[node name="RoadTile041" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, 6)
+mesh = ExtResource("5_rmvna")
+skeleton = NodePath("../..")
+
+[node name="RoadTile042" type="MeshInstance3D" parent="road"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 8)
+mesh = ExtResource("4_6pw0d")
+skeleton = NodePath("../..")
+
+[node name="RoadTile021" type="MeshInstance3D" parent="road"]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6, 0, 0)
+mesh = ExtResource("32_cpf6h")
+skeleton = NodePath("../..")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+
+[node name="clean" parent="." instance=ExtResource("33_425cq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
