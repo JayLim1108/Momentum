@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://b1hhcwcgno214"]
+
+[ext_resource type="PackedScene" uid="uid://brcu2u1i37nis" path="res://character2.gltf" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://b03hax10a4xd5" path="res://player.gd" id="1_onrkg"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4flbx"]
+height = 1.8
+
+[sub_resource type="Animation" id="Animation_i3pqv"]
+resource_name = "new_animation"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_hqtel"]
+_data = {
+&"new_animation": SubResource("Animation_i3pqv")
+}
+
+[node name="Node3D" type="Node3D"]
+
+[node name="player" type="CharacterBody3D" parent="."]
+script = ExtResource("1_onrkg")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CapsuleShape3D_4flbx")
+
+[node name="Camera3D" type="Camera3D" parent="player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
+keep_aspect = 0
+
+[node name="character2" parent="player/Camera3D" instance=ExtResource("1_4flbx")]
+transform = Transform3D(0.98480767, 0, -0.17364816, 0, 1, 0, 0.17364816, 0, 0.98480767, 0.05, -0.3, -0.8)
+
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="player/Camera3D/character2"]
+unique_name_in_owner = true
+root_node = NodePath("../../../..")
+libraries = {
+&"": SubResource("AnimationLibrary_hqtel")
+}
+autoplay = "new_animation"
